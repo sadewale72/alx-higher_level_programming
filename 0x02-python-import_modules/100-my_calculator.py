@@ -15,7 +15,7 @@ if __name__ == "__main__":
     except ValueError:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         sys_exit(1)
-        
+
     try:
         print(a, op, b, "=", ops[op](int(a), int(b)))
 
@@ -26,7 +26,7 @@ if __name__ == "__main__":
     except ValueError:
         print("Invalid operand. Must be an integer")
         sys_exit(1)
-        
+
     except ZeroDivisionError:
         print("Invalid operation. Cannot divide by zero")
         sys_exit(1)
