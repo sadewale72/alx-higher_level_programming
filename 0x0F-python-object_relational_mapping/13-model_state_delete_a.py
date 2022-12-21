@@ -20,4 +20,3 @@ if __name__ == "__main__":
         if "a" in state.name:
             session.delete(state)
     session.commit()
-    
