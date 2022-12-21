@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Wed Dec  21 09:05:11 2022
+Created on Sat Aug  8 09:05:11 2020
 
 @author: Adewale Aderoju
 """
@@ -9,6 +9,13 @@ import MySQLdb
 import sys
 
 
+<<<<<<< HEAD
+if __name__ == "__main__":
+    db = MySQLdb.connect(user=sys.argv[1], passwd=sys.argv[2], db=sys.argv[3])
+    c = db.cursor()
+    c.execute("SELECT * FROM `states`")
+    [print(state) for state in c.fetchall()]
+=======
 if __name__ == '__main__':
     args = sys.argv
     if len(args) != 4:
@@ -26,4 +33,3 @@ if __name__ == '__main__':
         print(row)
     cur.close()
     db.close()
-    
