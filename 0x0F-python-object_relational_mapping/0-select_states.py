@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Aug  8 09:05:11 2020
+Created on Wed Dec  21 09:05:11 2022
 
-@author: Robinson Montes
+@author: Adewale Aderoju
 """
 import MySQLdb
 import sys
